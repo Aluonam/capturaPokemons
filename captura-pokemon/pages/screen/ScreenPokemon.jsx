@@ -1,3 +1,4 @@
+import InputPokemon from '@/components/InputPokemon'
 import React, {useState, useEffect} from 'react'
 
 const ScreenPokemon = () => {
@@ -16,7 +17,11 @@ const ScreenPokemon = () => {
     }
     
   return (
+    <>
     <div>ScreenPokemon</div>
+    <InputPokemon></InputPokemon>
+    </>
+    
   )
 }
 
