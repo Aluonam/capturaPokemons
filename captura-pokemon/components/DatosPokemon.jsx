@@ -2,7 +2,7 @@ import React from 'react'
 
 const DatosPokemon = () => {
   return (
-    <div>DatosPokemon</div>
+    <div>DatosPokemon debe parecer oculto</div>
   )
 }
 

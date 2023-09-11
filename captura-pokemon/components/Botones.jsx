@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
-const Botones = () => {
+const Botones = ({datosAPI}) => {
 
 
     //INPUT 
-
+    const [datosUsuario, setDatosUsuario] = useState([])
     //BOTON BUSCAR
 
     //MODAL 
 
-    
+
   return (
+    <>
     <div>Botones</div>
+    <input onChange={(e)=>{setDatosUsuario(e.target.value)}}></input>
+    </>
+    
   )
 }
 
