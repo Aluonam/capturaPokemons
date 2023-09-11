@@ -15,7 +15,7 @@ const ScreenPokemon = () => {
     <>
     {/* <div>ScreenPokemon</div> */}
     <Botones setState={setDatosAPI}></Botones>
-    <DatosPokemon></DatosPokemon>
+    <DatosPokemon datosAPI={datosAPI}></DatosPokemon>
     </>
     
   )
