@@ -22,7 +22,7 @@ const DatosPokemon = ({datosAPI}) => {
     <div>DatosPokemon debe parecer oculto</div>
     <br></br>
     <p>{datosAPI.name}</p>
-    <img src={datosAPI?.sprites?.front_default}></img>
+    <img src={datosAPI?.sprites?.front_default} style={{height:"200px"}}></img>
     {habilidadesPokemon}
     </>
   )
