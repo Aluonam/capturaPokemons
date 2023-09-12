@@ -9,13 +9,13 @@ const ScreenPokemon = () => {
     const [datosAPI, setDatosAPI] = useState([])
     
 
-    console.log("datos api", datosAPI)
+    console.log("datos api",datosAPI.name,datosAPI )
 
   return (
     <>
     {/* <div>ScreenPokemon</div> */}
     <Botones setState={setDatosAPI}></Botones>
-    <DatosPokemon datosAPI={datosAPI}></DatosPokemon>
+    {datosAPI.name!=undefined && <DatosPokemon datosAPI={datosAPI}></DatosPokemon>}
     </>
     
   )
