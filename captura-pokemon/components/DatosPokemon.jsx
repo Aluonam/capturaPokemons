@@ -1,4 +1,6 @@
 import React from 'react'
+import Formulario from '@/components/Formulario'
+
 
 const DatosPokemon = ({datosAPI}) => {
 
@@ -7,7 +9,7 @@ const DatosPokemon = ({datosAPI}) => {
     const habilidadesPokemon = datosAPI.abilities?.map((elementoActual)=>{
         return(
             <>
-            <ul>
+            <ul key={elementoActual.id}>
                  <li>{elementoActual?.ability?.name}</li>
             </ul>
             
@@ -24,6 +26,7 @@ const DatosPokemon = ({datosAPI}) => {
     <p>{datosAPI.name}</p>
     <img src={datosAPI?.sprites?.front_default} style={{height:"200px"}}></img>
     {habilidadesPokemon}
+   <Formulario elementoPokemon={datosAPI}></Formulario>
     </>
   )
 }
