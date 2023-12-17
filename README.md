@@ -1,11 +1,13 @@
-# capturaPokemons
+## capturaPokemons
 
-Para esta prueba vamos a utilizar la api de pokemon! (Como te gusta) 
+Uso de API pokemon: https://pokeapi.co/
 
-Vamos a tener un input donde el usuario podra escribir el nombre del pokemon que quiera y un boton para buscar. 
+Vamos a tener un input donde el usuario podra escribir el nombre del pokemon que quiera y un botón para buscar. 
 
-Al buscar se mostraran datos del pokemon como el nombre, nivel e imagen en pantalla 
+Al buscar se mostraran datos del pokémon como el nombre, nivel e imagen en pantalla.
 
-y un boton extra que pondrá "Capturar" con un Modal
+Y un botón extra que pondrá "Capturar" con un Modal.
 
-Si pulsamos el boton para capturarlo 
+Si pulsamos el botón podremos capturarlo.
+
+Uso de HTML, CSS, JS con REACT.
